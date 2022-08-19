@@ -6,7 +6,7 @@
 
 // console.log($.ajax("http://www.omdbapi.com/?i=tt3896198&apikey=7852cb&t=Frozen+2"))
 
-const URL = "http://www.omdbapi.com/?i=tt3896198&apikey=7852cb&t=frozen";
+const URL = "http://www.omdbapi.com/?i=tt3896198&apikey=7852cb&t=nosferatu_the_vampyre";
 
 $.ajax(URL).then(function(data){
     console.log('movie is ready')
